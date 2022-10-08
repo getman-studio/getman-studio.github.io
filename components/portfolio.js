@@ -2,7 +2,7 @@ import PortfolioItem from "./portfolio_item";
 
 export default function Portfolio() {
     return (
-        <div className={"flex gap-4 pl-4 pr-4 overflow-x-scroll"}>
+        <div className={"flex flex-col md:flex-row gap-1 md:gap-4 pl-4 pr-4 md: overflow-x-scroll"}>
             <PortfolioItem
                 foregroundImage={"/portfolio/Sculpture Top.png"}
                 backgroundImage={"/portfolio/Sculpture Bottom.png"}

@@ -7,7 +7,7 @@ export default function PortfolioItem({foregroundImage, backgroundImage, title})
                 <div className={"absolute left-4 top-4"}>
                     <div className={"relative"}>
                         <div className={"absolute w-full h-full bg-header"}/>
-                        <Image src={backgroundImage} width={320} height={320} className={"opacity-30"}/>
+                        <Image src={backgroundImage} width={320} height={320} className={"opacity-20"}/>
                     </div>
                 </div>
 
