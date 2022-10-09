@@ -12,7 +12,7 @@ export default function PortfolioItem({foregroundImage, backgroundImage, title})
                 </div>
 
                 <div className={"relative w-80 h-80 shadow"}>
-                    <img src={foregroundImage} />
+                    <img src={foregroundImage} className={"object-fill w-full h-full"}/>
                 </div>
             </div>
             <p className={"pt-6 pb-6"}>{title}</p>

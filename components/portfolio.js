@@ -16,26 +16,36 @@ export default function Portfolio() {
             </a>
             <a onClick={() => router.push('?page=mural', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
+                    foregroundImage={"/portfolio/mural_top.png"}
+                    backgroundImage={"/portfolio/mural_bottom.png"}
                     title={"Розпис"}
                 />
             </a>
             <a onClick={() => router.push('?page=painting', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
+                    foregroundImage={"/portfolio/painting_top.png"}
+                    backgroundImage={"/portfolio/painting_bottom.png"}
                     title={"Живопис"}
                 />
             </a>
             <a onClick={() => router.push('?page=decoration', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
+                    foregroundImage={"/portfolio/decoration_top.png"}
+                    backgroundImage={"/portfolio/decoration_bottom.png"}
                     title={"Декорації"}
                 />
             </a>
             <a onClick={() => router.push('?page=graphic', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
+                    foregroundImage={"/portfolio/graphic_top.png"}
+                    backgroundImage={"/portfolio/graphic_bottom.png"}
                     title={"Графіка"}
                 />
             </a>
             <a onClick={() => router.push('?page=art', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
+                    foregroundImage={"/portfolio/art_top.png"}
+                    backgroundImage={"/portfolio/art_bottom.png"}
                     title={"Арт"}
                 />
             </a>
