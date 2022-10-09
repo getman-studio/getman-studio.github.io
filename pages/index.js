@@ -7,6 +7,7 @@ import Mural from "../components/mural";
 import Painting from "../components/painting";
 import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
+import Decoration from "../components/decoration";
 
 export default function Home() {
 
@@ -24,6 +25,9 @@ export default function Home() {
                 break;
             case "painting":
                 setModal(<Painting />)
+                break;
+            case "decoration":
+                setModal(<Decoration />)
                 break;
             default:
                 setModal(null)
