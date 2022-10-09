@@ -5,8 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    textColor: {
+        "white": "#ffffff",
+        "black": "#000000"
+    },
     colors: {
-      "header": "#2c2c2c",
+      "modal": "#000000cc",
+      "header": "#2c2c2c"
     },
     extend: {},
   },
