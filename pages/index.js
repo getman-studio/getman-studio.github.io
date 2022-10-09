@@ -4,18 +4,25 @@ import Portfolio from "../components/portfolio";
 import Modal from "../components/modal";
 import Sculpture from "../components/sculpture";
 import {useEffect, useState} from "react";
+import {useRouter} from "next/router";
 
 export default function Home() {
 
+    const router = useRouter()
     const [modal, setModal] = useState(null)
 
     useEffect(() => {
-        switch (window.location.pathname) {
-            case "/sculpture":
+        console.log(router.query.page)
+        switch (router.query.page) {
+            case "sculpture":
                 setModal(<Sculpture />)
                 break;
+            default:
+                setModal(null)
+                break;
+
         }
-    }, [])
+    }, [router.query.page])
 
     return (
         <div className={"relative"}>
