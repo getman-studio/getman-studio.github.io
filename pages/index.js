@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
         <div className={"relative"}>
-            <div className={"absolute flex flex-col h-screen w-screen"}>
+            <div className={"absolute flex flex-col h-screen w-screen" + (modal != null ? " overflow-hidden " : "")}>
                 <div>
                     <Header/>
                 </div>
