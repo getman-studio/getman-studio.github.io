@@ -3,6 +3,7 @@ import Social from "../components/social";
 import Portfolio from "../components/portfolio";
 import Modal from "../components/modal";
 import Sculpture from "../components/sculpture";
+import Mural from "../components/mural";
 import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
 
@@ -16,6 +17,9 @@ export default function Home() {
         switch (router.query.page) {
             case "sculpture":
                 setModal(<Sculpture />)
+                break;
+            case "mural":
+                setModal(<Mural />)
                 break;
             default:
                 setModal(null)
