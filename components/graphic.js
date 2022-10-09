@@ -3,7 +3,7 @@ import LargeItem from "./large_item";
 export default function Graphic() {
     return (
         <div className={"flex flex-col"}>
-            <p className={"text-2xl text-white mb-12"}>Розпис</p>
+            <p className={"text-2xl text-white mb-12"}>Графіка</p>
             <LargeItem image={"/portfolio/graphic_1.png"} description={
                 <div className={"p-4"}>
                     <p className={"text-black"}>Інтнр`єрна графіка &quot;Лондон&quot; Художник: Зоріна і Валентин Гетьман</p>
