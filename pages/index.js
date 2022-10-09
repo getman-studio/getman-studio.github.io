@@ -5,9 +5,10 @@ import Modal from "../components/modal";
 import Sculpture from "../components/sculpture";
 import Mural from "../components/mural";
 import Painting from "../components/painting";
+import Decoration from "../components/decoration";
+import Graphic from "../components/graphic";
 import {useEffect, useState} from "react";
 import {useRouter} from "next/router";
-import Decoration from "../components/decoration";
 
 export default function Home() {
 
@@ -28,6 +29,9 @@ export default function Home() {
                 break;
             case "decoration":
                 setModal(<Decoration />)
+                break;
+            case "graphic":
+                setModal(<Graphic />)
                 break;
             default:
                 setModal(null)
