@@ -7,14 +7,12 @@ const nextConfig = {
     },
 
     async rewrites() {
-        return {
-            beforeFiles: [
-                {
-                    source: '/sculpture',
-                    destination: '/'
-                }
-            ]
-        }
+        return [
+            {
+                source: '/sculpture',
+                destination: '/'
+            }
+        ]
     }
 }
 
