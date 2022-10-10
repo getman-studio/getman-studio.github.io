@@ -8,7 +8,7 @@ export default function Sculpture() {
                 <div className={"p-4"}>
                     <p className={"text-black"}>Скульптура з дерева &quot;Родина&quot;</p>
                     <br />
-                    <a className={"text-blue"} href={"https://www.facebook.com/getmanstudio/photos/a.962635990474690/2984543931617209/?type=3&theater"}>https://www.facebook.com/getmanstudio/photos/a.962635990474690/2984543931617209/?type=3&theater</a>
+                    <a className={"text-blue break-all"} href={"https://www.facebook.com/getmanstudio/photos/a.962635990474690/2984543931617209/?type=3&theater"}>https://www.facebook.com/getmanstudio/photos/a.962635990474690/2984543931617209/?type=3&theater</a>
                 </div>
             }/>
             <br />
