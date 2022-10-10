@@ -6,7 +6,7 @@ export default function Portfolio() {
     const router = useRouter()
 
     return (
-        <div className={"flex flex-col md:flex-row gap-1 md:gap-8 pl-4 pr-4 md: overflow-x-scroll"}>
+        <div className={"flex flex-col md:flex-row gap-1 md:gap-8 pl-4 pr-4 md: overflow-x-scroll md:scrollbar-hide"}>
             <a onClick={() => router.push('?page=sculpture', undefined, {shallow: true})} className={"cursor-pointer"}>
                 <PortfolioItem
                     foregroundImage={"/portfolio/sculpture_top.png"}
